@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "media/unitconversation",
+    "description": "unitconversation",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "media",
+        "unitconversation"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/media/unitconversation",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "damir",
+            "email": "dt@23media.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Media\\Unitconversation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Media\\Unitconversation\\Tests\\": "tests"
         }
     },
     "scripts": {
